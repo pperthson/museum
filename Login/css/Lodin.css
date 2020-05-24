@@ -1,0 +1,73 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+				               margin: 0;
+				               padding: 0;
+				               }
+
+.websiteTitle{                 				 /* 网页标题样式*/
+							   font-family:'宋体';
+							   font-weight: lighter;
+							   color: darkred;
+							   font-size:30px;
+							   text-align:left;
+							   margin: 20px;
+							   }
+
+.loginTitle{
+							   text-align: center;
+							   font-size: 25px
+							   }
+
+.pageContainer{                 			/*页面区块样式*/
+							   width:100%; 
+							   margin:0 auto;
+							   margin-bottom: 30px;
+							   text-align: left;  		
+							   margin-top: 37px;
+							   background-color:#F7F8F0;
+							   opacity: 0.9;  				/*设置背景以及文字的透明度*/
+							   }
+
+.imgContainer{  							/*背景图片区块样式*/
+							   width:100%; 
+							   height: 600px;
+							   margin:0 auto;
+							   margin-bottom: 30px;
+							   text-align: left;  		
+							   margin-top: 37px;
+							   background-attachment: scroll;/*背景固定*/
+							   background-image:url( ../img/login1.jpg);
+							   background-size: 100%;
+							   background-position: center; /*背景定位用于控制背景图片在网页中显示的位置 */
+							   background-repeat: no-repeat;/*背景图片重复控制的是背景图片平铺与否*/
+							   }
+
+.formContainer{						/*表单区块样式*/
+							   position: absolute; 
+							   top: 55%; 
+							   left:45%; 
+							   margin: -150px 0 0 -150px; 
+							   width: 380px; 
+							   height:350px;
+							   opacity: 0.8;		/*设置背景以及文字的透明度*/
+							   padding-top: 50px;
+							   padding-left: 45px;
+							   }
+
+.textBox{                  /*文本框和密码框样式*/
+							   width:250px;
+							   height: 30px;
+							   margin-top: 50px;
+							   background-color:white;
+							   padding-left: 10px;
+							   }
+
+.submitBox{					   /*提交框样式*/
+						       width:265px;
+						       height: 40px;
+						       /*border: 1px solid #572929;*/
+						       margin-top: 60px;
+						       background-color:palevioletred;
+						       margin-left: 39px;
+						       }

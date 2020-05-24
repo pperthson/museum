@@ -1,0 +1,233 @@
+@charset "utf-8";
+/* CSS Document */
+.siContainer{
+								 width:100%; 
+								 margin:0 auto;
+								 margin-bottom: 30px;
+								 text-align: left;  		
+								 margin-top: 37px;
+								 background-image:url( ../img/SichuanEmbroidery.jpg);
+								 background-size: 100%;
+								 background-position: center;/*背景定位用于控制背景图片在网页中显示的位置。*/
+								 background-repeat: no-repeat;/*背景图片重复控制的是背景图片平铺与否*/
+								 background-attachment: scroll;/*背景固定*/
+								 }
+					
+.huContainer{
+							  	 width:100%; 
+							  	 margin:0 auto;
+							  	 margin-bottom: 30px;
+							  	 text-align: left;  		
+							  	 margin-top: 37px;
+							  	 background-image:url(../img/HunanEmbroidery.jpg);
+							  	 background-size: 100%;
+							  	 background-position: center;/*背景定位用于控制背景图片在网页中显示的位置。*/
+							  	 background-repeat: no-repeat;/*背景图片重复控制的是背景图片平铺与否*/
+							  	 background-attachment: scroll;/*背景固定*/
+							  	 }
+					
+.suContainer{
+							  	 width:100%; 
+							  	 margin:0 auto;
+							  	 margin-bottom: 30px;
+							  	 text-align: left;  		
+							  	 margin-top: 37px;
+							  	 background-image:url(../img/SuzhouEmbroidery.jpg);
+							  	 background-size: 100%;
+							  	 background-position: center;/*背景定位用于控制背景图片在网页中显示的位置。*/
+							  	 background-repeat: no-repeat;/*背景图片重复控制的是背景图片平铺与否*/
+							  	 background-attachment: scroll;/*背景固定*/
+							  	 }
+			
+.canContainer{
+							  	 width:100%; 
+							  	 margin:0 auto;
+							  	 margin-bottom: 30px;
+							  	 text-align: left;  		
+							  	 margin-top: 37px;
+							  	 background-image:url(../img/CantoneseEmbroidery.jpg);
+							 	 background-size: 100%;
+							 	 background-position: center;/*背景定位用于控制背景图片在网页中显示的位置。*/
+							 	 background-repeat: no-repeat;/*背景图片重复控制的是背景图片平铺与否*/
+							 	 background-attachment: scroll;/*背景固定*/
+							 	 }
+			
+.pageContainer{
+								 width:100%; 
+								 margin:0 auto;
+								 margin-bottom: 30px;
+								 text-align: left;  		
+								 margin-top: 37px;
+								 background-color:#F7F8F0;
+								 opacity: 0.6;  				/*设置背景以及文字的透明度*/
+								 }
+
+.footContainer{                              /*页脚区块样式*/
+								 width:100%;    
+								 height: 65px;
+								 margin: auto;
+								 color: white;
+								 font-family:'宋体';
+								 font-weight: lighter;
+								 text-align:center;
+								 background-color:darkred;
+								 padding: 1px;
+								 float:right;
+								 margin-bottom: 15px;
+								 opacity: 0.8;
+								   }
+					
+hr{color: darkred;}
+
+h1{text-align: center;font-family:'宋体';font-size: 40px;padding-top: 17px;}
+
+h3{padding: 0px 30px;}
+
+img{position:absolute;top:230px;left: 968px;}
+
+.websiteTitle{
+								 font-family:'宋体';
+								 font-weight: lighter;
+								 color: darkred;
+								 padding-left:  20px; 
+								 font-size:25px;
+								 text-align:left;
+								 }
+
+.pageText{
+							     padding: 0px 40px 0px 40px;
+							     line-height: 25px;
+							  	 font-weight:800;
+							 	 font-size: 18px;
+							  	 font-family:"楷体";
+							  	 }
+
+.top{
+						 		 height: 39px;						/*导航栏宽高背景*/
+								 width: 100%;
+								 margin-left: 0;
+								 background:darkred;
+								 position: relative;  					/*在顶部相对位置*/
+					 			 top:5px;
+								 margin-bottom: 6px;
+								 } 
+
+	.top ul{
+								 width: auto;
+								 list-style-type: none;
+								 white-space: nowrap;
+								 overflow: hidden;
+								 margin-left: 18.5%;
+								 margin-top: 0;
+								 padding: 0;
+								 }
+
+	.top li{
+								 float:left;
+								 color: white;
+								 margin-right: 17%;				/*设置p元素的右外边距*/
+								 overflow: hidden;				/*内容溢出元素框时会被修剪，并且其余内容是不可见的*/
+								 padding: 5px 0px;
+								 }
+
+	.top li a{								/*设置链接内容显示的格式*/
+								 display: block;				/*链接显示为块元素，整个链接区域都可点击*/
+								 color:white;					
+								 text-align: center;
+								 padding: 3px;
+								 overflow: hidden;
+								 text-decoration: none;		/*去除下划线*/
+								 }
+
+	.top li a:hover{
+								 background-color:brown;		/*一级菜单-选中时背景变色*/
+								 }
+
+	.top li a:active{
+								 background-color: firebrick;		/*一级菜单-鼠标按下时一瞬间的背景属性*/
+								 }  
+
+						
+	.top ul li ul{										/*设置二级菜单*/
+								 margin-left: -0.2px;
+								 background: firebrick;
+								 position: relative;
+								 display:none;							/*默认隐藏二级菜单的内容*/
+								 }
+
+	.top ul li ul li{
+								 margin-right: 0;						/*二级菜单li内容的显示*/
+								 float: none;
+								 text-align: center;
+								 }
+
+	.top ul li:hover ul{								/*鼠标选中二级菜单内容时，链接显示为块元素，整个链接区域都可点击*/
+								 display: block;
+							     }
+
+.breadcrumb{
+								 width: 100%;
+								 text-align: left;
+								 }
+
+	.breadcrumb ol{
+								 list-style-type: none;
+								 }
+
+	.breadcrumb li {
+								 list-style: none;
+								 float: left;
+								 color: black;
+								 font-size: 15px;
+								 padding: 5px 0px;
+								 }
+
+	.breadcrumb li a{
+								 list-style: none;
+								 color: #670608;
+								 text-decoration: none;
+								 }
+
+	.breadcrumb li a:after{
+								 content: ">>"
+								 }
+
+	.breadcrumb li a:hover{
+								 color: black;		
+								 }
+
+.aEmphasize{                       /*书签链接区块样式*/
+								 font-family: "楷体";
+								 font-size: 28px;
+								 border:1px solid;           /*边框大小*/
+								 border-color:#B08787;        /*边框颜色*/
+								 background-color:#F8EBEC;   /* 边框背景色*/
+								 border-collapse: collapse;  
+								 display: inline-block;
+								 width: 100px;
+								 height: 30px;
+								 text-align: center;
+								 }
+			
+/* 未访问的链接 */ 
+.classM:link{                    /*书签的链接设置*/
+								 color:darkred;
+								 font-family:"楷体";
+								 font-size:20px;
+								 text-decoration: none;/*去除下划线*/
+								 }
+			
+	/* 已访问的链接 */
+	.classM:visited{
+								 color:#C16D6E;
+								 }
+
+	/* 鼠标在链接上 */  
+	.classM:hover{
+								color:#131313;
+								}
+
+a{
+								cursor: pointer;
+								}   								/*鼠标样式*/
+

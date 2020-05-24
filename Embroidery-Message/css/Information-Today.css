@@ -1,0 +1,186 @@
+@charset "utf-8";
+/* CSS Document */
+.websiteTitle{
+								   font-family:'宋体';
+								   font-weight: lighter;
+								   color: darkred;
+								   padding-left:  20px; 
+								   font-size:25px;
+								   text-align:left;
+								   }
+
+.smallTitle{                       /*小标题样式*/
+								   font-family:ultra;    
+								   font-size: 25px;
+								   letter-spacing: 15px;
+								   line-height: 1.5;
+								   text-align:center;
+								   color:#030303;
+								   }
+
+.articleText{                             /*段落样式*/
+								   font-family:"dancing-script";
+								   font-size: 15px;
+								   text-indent:2em;
+								   text-align:left;
+								   }
+
+.pageContainer{                         /*页面区块样式*/
+								   width:1350px;
+								   height:550px;
+								   margin: auto;
+								   text-align:left;
+								   }
+
+.tellContainer{                         /*今日热议区块样式*/
+								   width:583px;
+								   margin:inherit;
+								   text-align:center;
+								   padding: 20px;
+								   float: left
+								   }
+
+.textContainer{                      /*锦绣文章区块样式*/
+								   width:583px;  
+								   margin:auto;
+								   text-align:center;
+								   padding: 20px;
+								   float: right;
+								   }
+
+.footContainer{                              /*页脚区块样式*/
+								   width:100%;    
+								   height: 65px;
+								   margin: auto;
+								   color: white;
+								   font-family:'宋体';
+								   font-weight: lighter;
+								   text-align:center;
+								   background-color:darkred;
+								   padding: 1px;
+								   float:right;
+								   margin-bottom: 15px;
+								   opacity: 0.8;
+								   }
+					
+.emphasize{                               /*小区快样式*/
+								   font-weight: bold;
+								   font-family:calligraffitti;
+								   font-size: 20px;
+								   }
+
+.top{
+								   height: 39px;						/*导航栏宽高背景*/
+								   width: 100%;
+								   margin-left: 0;
+								   background:darkred;
+								   position: relative;  					/*在顶部相对位置*/
+								   top:5px;
+								   margin-bottom: 6px;
+								   } 
+
+	.top ul{
+								   width: auto;
+								   list-style-type: none;
+								   white-space: nowrap;
+								   overflow: hidden;
+								   margin-left: 18.5%;
+								   margin-top: 0;
+								   padding: 0;
+								   }
+
+	.top li{
+								   float:left;
+								   color: white;
+								   margin-right: 17%;				/*设置p元素的右外边距*/
+								   overflow: hidden;				/*内容溢出元素框时会被修剪，并且其余内容是不可见的*/
+								   padding: 5px 0px;
+								   }
+
+	.top li a{								/*设置链接内容显示的格式*/
+								   display: block;				/*链接显示为块元素，整个链接区域都可点击*/
+								   color:white;					
+								   text-align: center;
+								   padding: 3px;
+								   overflow: hidden;
+								   text-decoration: none;		/*去除下划线*/
+								   }
+
+	.top li a:hover{
+								   background-color:brown;		/*一级菜单-选中时背景变色*/
+								   }
+
+	.top li a:active{
+								   background-color: firebrick;		/*一级菜单-鼠标按下时一瞬间的背景属性*/
+								   }  
+
+	.top ul li ul{										/*设置二级菜单*/
+								   margin-left: -0.2px;
+								   background: firebrick;
+								   position: relative;
+								   display:none;							/*默认隐藏二级菜单的内容*/
+							       }
+
+	.top ul li ul li{
+								   margin-right: 0;						/*二级菜单li内容的显示*/
+								   float: none;
+								   text-align: center;
+								   }
+
+	.top ul li:hover ul{								/*鼠标选中二级菜单内容时，链接显示为块元素，整个链接区域都可点击*/
+								   display: block;
+								   }
+
+.breadcrumb{
+								   width: 100%;
+								   text-align: left;
+								   }
+
+	.breadcrumb ol{
+								   list-style-type: none;
+								   }
+
+	.breadcrumb li {
+								   list-style: none;
+								   float: left;
+								   color: black;
+								   font-size: 15px;
+								   padding: 5px 0px;
+								   }
+
+	.breadcrumb li a{
+								   list-style: none;
+								   color: #670608;
+								   text-decoration: none;
+								   }
+
+	.breadcrumb li a:after{
+								   content: ">>";
+							       }
+
+	.breadcrumb li a:hover{
+								   color: black;		
+								   }
+
+/* 未访问的链接 */ 
+.classT:link{                      /*文本链接*/
+								   color:darkred;
+								   font-family:"楷体";
+								   font-weight: lighter;
+						 		   font-size:18px;
+							       text-decoration: none;/*去除下划线*/
+								   }
+					
+	/* 已访问的链接 */
+	.classT:visited{
+								   color:#C16D6E;
+								   } 
+
+	/* 鼠标在链接上 */  
+	.classT:hover{ 
+								   color:#131313;
+								   }	
+
+a{
+								   cursor: pointer;
+								   }   								/*鼠标样式*/

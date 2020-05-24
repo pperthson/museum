@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="zh">
+	<head>
+	<meta charset="utf-8">
+	<title>用户登录</title>
+		<link rel="stylesheet" href="css/Lodin.css">
+	</head>
+	<body>
+		<!--======页眉开始======-->
+		<header>
+			<h3 class="websiteTitle">中国绣的前世今生</h3>
+		</header>
+		<!--======页眉结束======-->
+		<hr style="color: darkred;">
+		<!--======主要内容开始======-->
+		<main>
+			<div class="pageContainer">
+				<div class="imgContainer">
+					<div class="formContainer">
+						<h3 class="loginTitle">用户登录</h3>
+						<form method="post">
+							<!--label 元素不会向用户呈现任何特殊效果。不过，它为鼠标用户改进了可用性。如果您在 label 元素内点击文本，就会触发此控件。就是说，当用户选择该标签时，浏览器就会自动将焦点转到和标签相关的表单控件上。-->
+							<label for="账号">账号</label>
+							<input class="textBox" id="账号" type="text" required="required" placeholder="用户名"/>
+							<br>
+							<label for="密码">密码</label>
+							<input class="textBox" id="密码" type="password" required="required" placeholder="密码"/>
+							<input class="submitBox" type="submit" value="登录" style="cursor:pointer"/>
+						</form>
+					</div>
+				</div>
+			</div>
+		</main>
+		<!--======主要内容结束======-->
+
+	</body>
+</html>
